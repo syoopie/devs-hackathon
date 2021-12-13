@@ -23,6 +23,14 @@ function Test() {
         });
     }
 
+    const addOneToYear = () => {
+        setCar(previousState => {
+            let nextYear = Number(previousState["year"]) + 1;
+            nextYear = String(nextYear);
+            return { ...previousState, year: nextYear} 
+        })
+    }
+
     return (
         <>
             <Calendar/>
@@ -30,12 +38,19 @@ function Test() {
             <p>
                 It is a {car.color} {car.model} from {car.year}.
             </p>
+            
             <button
                 type="button"
                 onClick={updateColor}
             >Change Color</button>
+
+            <button
+                type="button"
+                onClick={addOneToYear}
+            >Add 1 to year</button>
         </>
   )
 }
 
 ReactDOM.render(<Test />, document.getElementById('root'));
+
