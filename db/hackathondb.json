@@ -1,70 +1,70 @@
 [{
     "BookingID": "1",
     "Date": "2021-12-13",
-    "Time": "19:00",
+    "Time": "13:00",
     "Name": "vina",
     "Contact Number": 81234567
 }, 
 {
     "BookingID": "2",
     "Date": "2021-12-15",
-    "Time": "08:00",
+    "Time": "12:00",
     "Name": "charles",
     "Contact Number": 98765432
 }, 
 {
     "BookingID": "3",
     "Date": "2021-12-15",
-    "Time": "08:00",
+    "Time": "12:00",
     "Name": "vina",
     "Contact Number": 81234567
 }, 
 {
     "BookingID": "4",
     "Date": "2021-12-15",
-    "Time": "08:00",
+    "Time": "12:00",
     "Name": "gabriel",
     "Contact Number": 89012345
 }, 
 {
     "BookingID": "5",
     "Date": "2021-12-15",
-    "Time": "08:00",
+    "Time": "12:00",
     "Name": "yupei",
     "Contact Number": 87654321
 }, 
 {
     "BookingID": "6",
     "Date": "2021-12-15",
-    "Time": "08:00",
+    "Time": "12:00",
     "Name": "somedude",
     "Contact Number": 86421357
 }, 
 {
     "BookingID": "7",
     "Date": "2021-12-25",
-    "Time": "09:00",
+    "Time": "13:00",
     "Name": "charles",
     "Contact Number": 98765432
 }, 
 {
     "BookingID": "8",
     "Date": "2021-12-26",
-    "Time": "09:00",
+    "Time": "13:00",
     "Name": "charles",
     "Contact Number": 98765432
 }, 
 {
     "BookingID": "9",
     "Date": "2021-12-27",
-    "Time": "13:00",
+    "Time": "15:00",
     "Name": "gabriel",
     "Contact Number": 89012345
 },
 {
     "BookingID": "10",
     "Date": "2021-12-22",
-    "Time": "21:00",
+    "Time": "16:00",
     "Name": "gabriel",
     "Contact Number": 89012345
 }, 
@@ -80,7 +80,7 @@
 {
     "BookingID": "12",
     "Date": "2021-12-29",
-    "Time": "22:00",
+    "Time": "13:00",
     "Name": "charles",
     "Contact Number": 98765432
 }, 
@@ -88,7 +88,7 @@
 {
     "BookingID": "13",
     "Date": "2021-12-30",
-    "Time": "08:00",
+    "Time": "14:00",
     "Name": "charles",
     "Contact Number": 98765432
 }, 
@@ -96,14 +96,14 @@
 {
     "BookingID": "14",
     "Date": "2021-12-31",
-    "Time": "08:00",
+    "Time": "15:00",
     "Name": "charles",
     "Contact Number": 98765432
 }, 
 {
     "BookingID": "15",
     "Date": "2021-12-31",
-    "Time": "15:00",
+    "Time": "16:00",
     "Name": "gabriel",
     "Contact Number": 89012345
 }
