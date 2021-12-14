@@ -3,6 +3,11 @@ import { useState } from "react";
 import ReactDOM from "react-dom";
 import Calendar from "react-calendar"
 import 'react-calendar/dist/Calendar.css';
+import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages';
+import NewBooking from './pages/newbookings';
 
 function Test() {
 
@@ -33,6 +38,15 @@ function Test() {
 
     return (
         <>
+            <Router>
+                <Navbar />
+                    <Routes>
+                        <Route path='/'  element={<Home/>} />
+                        <Route path='/newbookings' element={<NewBooking/>} />
+                    </Routes>
+            </Router>
+            
+            
             <Calendar/>
             <h1>My {car.brand}</h1>
             <p>
